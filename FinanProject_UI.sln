@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinanProject_UI", "FinanProject_UI\FinanProject_UI.csproj", "{BECA36EE-C57F-4BAA-BA8E-7EA1D70EC427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECA36EE-C57F-4BAA-BA8E-7EA1D70EC427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECA36EE-C57F-4BAA-BA8E-7EA1D70EC427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECA36EE-C57F-4BAA-BA8E-7EA1D70EC427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECA36EE-C57F-4BAA-BA8E-7EA1D70EC427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E66C70F8-FE9F-4DEA-BD66-47740D4517AD}
+	EndGlobalSection
+EndGlobal
