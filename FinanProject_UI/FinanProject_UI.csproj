@@ -1,0 +1,289 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BECA36EE-C57F-4BAA-BA8E-7EA1D70EC427}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinanProject_UI</RootNamespace>
+    <AssemblyName>FinanProject_UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\finalProject\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="paseeAll.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paseeAll.Designer.cs">
+      <DependentUpon>paseeAll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ps.Designer.cs">
+      <DependentUpon>ps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ps1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ps1.Designer.cs">
+      <DependentUpon>ps1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ps2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ps2.Designer.cs">
+      <DependentUpon>ps2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ps3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ps3.Designer.cs">
+      <DependentUpon>ps3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ps4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ps4.Designer.cs">
+      <DependentUpon>ps4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ps5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ps5.Designer.cs">
+      <DependentUpon>ps5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TAX_Online.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TAX_Online.Designer.cs">
+      <DependentUpon>TAX_Online.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\p1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\p1.Designer.cs">
+      <DependentUpon>p1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\p2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\p2.Designer.cs">
+      <DependentUpon>p2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\p3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\p3.Designer.cs">
+      <DependentUpon>p3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\p4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\p4.Designer.cs">
+      <DependentUpon>p4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\p5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\p5.Designer.cs">
+      <DependentUpon>p5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\p6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\p6.Designer.cs">
+      <DependentUpon>p6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WebBrowser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WebBrowser.Designer.cs">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paseeAll.resx">
+      <DependentUpon>paseeAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ps.resx">
+      <DependentUpon>ps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ps1.resx">
+      <DependentUpon>ps1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ps2.resx">
+      <DependentUpon>ps2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ps3.resx">
+      <DependentUpon>ps3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ps4.resx">
+      <DependentUpon>ps4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ps5.resx">
+      <DependentUpon>ps5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TAX_Online.resx">
+      <DependentUpon>TAX_Online.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\p1.resx">
+      <DependentUpon>p1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\p2.resx">
+      <DependentUpon>p2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\p3.resx">
+      <DependentUpon>p3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\p4.resx">
+      <DependentUpon>p4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\p5.resx">
+      <DependentUpon>p5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\p6.resx">
+      <DependentUpon>p6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WebBrowser.resx">
+      <DependentUpon>WebBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ภาษี.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toon4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dock-Trashcan-full-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fasticon-icomic-trash.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\graphicloads-seo-services-creative.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\botton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-refresh-3-icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconleak-or-light-bulb.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\อ1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\อ2.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\อ3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\คำนวณ.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
